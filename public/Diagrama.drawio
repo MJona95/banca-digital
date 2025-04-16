@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="Página-1" id="kcDWWLlWvKyqn8Ln4p39">
+    <mxGraphModel dx="2088" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-1" target="5s7vlP6Rx7qeRtkEHYvC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-1" value="Mostrar usuario" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-2" value="Mostrar cuentas del usuario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="230" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-3" target="5s7vlP6Rx7qeRtkEHYvC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-3" value="Obtener la cuenta del usuario" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="330" width="155" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-4" target="5s7vlP6Rx7qeRtkEHYvC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-4" value="rellenar formulario de transferencia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="420" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-5" target="5s7vlP6Rx7qeRtkEHYvC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-5" value="datos formulario:&lt;div&gt;origin cuenta&lt;/div&gt;&lt;div&gt;distination cuenta,&lt;/div&gt;&lt;div&gt;monto a transferir&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="490" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-6" value="Validaciones del formulario, principal es que el moto a transferir sea igual o menor al actual" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="670" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-8" target="5s7vlP6Rx7qeRtkEHYvC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-8" value="Todo correcto click en transferir" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.633;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-6" target="5s7vlP6Rx7qeRtkEHYvC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-10" value="Al&amp;nbsp; dar click entrasferir llamar al endpoint" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.428;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-4" target="5s7vlP6Rx7qeRtkEHYvC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.643;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-2" target="5s7vlP6Rx7qeRtkEHYvC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-16" target="5s7vlP6Rx7qeRtkEHYvC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-16" value="Al ser correcta la transaccion redirigir al inicio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="590" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.712;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-10" target="5s7vlP6Rx7qeRtkEHYvC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5s7vlP6Rx7qeRtkEHYvC-18" target="5s7vlP6Rx7qeRtkEHYvC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5s7vlP6Rx7qeRtkEHYvC-18" value="Mostrar boton cancelar que rediriga al inicioa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

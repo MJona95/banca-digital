@@ -1,6 +1,11 @@
+/*
+cree esta rutqa dinamica para poder mostrar los usuarios dependiendo del id de cada uno se mostrara la informacion
+de sus cuentas se optiene id mediante el contexto y los parametros de la ruta esto se puede hacer en los server side components
+*/ 
 
 import Container from "@/app/components/container"
-import Link from "next/link";
+import Button from "@/app/components/button";
+import Transacciones from "@/app/components/transacciones";
 
 export default async function cuentasUser( context ) {
 
@@ -8,12 +13,12 @@ export default async function cuentasUser( context ) {
 
   const res = await fetch(`http://localhost:5566/accounts/${id}`);
   const json = await res.json()
-  console.log(json)
   
   return (
     <>
       <Container>
-        <div className="bg-white rounded-xl shadow-md overflow-hidden p-6 max-w-sm">
+        <div className="bg-white flex flex-row gap-4 rounded-xl shadow-md overflow-hidden p-6 max-w-sm">
+          <div className="flex flex-col">
           <p className="text-sm text-gray-500 uppercase tracking-wide font-medium mb-1">
             Tipo de cuenta
           </p>
@@ -44,15 +49,17 @@ export default async function cuentasUser( context ) {
               </spam>
             </div>
           </div>
+          </div>
+          <div className="flex flex-col text-center">
+            <p className="text-sm text-gray-500 uppercase tracking-wide font-medium mb-1">Transacciones</p>
+            <div className="">
+              <Transacciones idUser={id} />
+            </div>
+          </div>
         </div>
 
-        <Link
-            className='bg-blue-500 text-white py-1 px-5 rounded-lg inline-block mt-4'
-            key='ir a cuentas'
-            href={`/`}
-          >
-             Volver
-          </Link>
+        <Button keyprop='ir a cuentas' ruta='/' text='Volver' />
+        
       </Container>
     </>
   )
